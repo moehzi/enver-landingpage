@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #19191B;
+	color: #ffff;
+}
+
+.layout {
+	max-width: 68.75rem;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}

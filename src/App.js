@@ -1,7 +1,13 @@
 import React from "react";
+import "./App.css";
+import { Navbar } from "./components";
 
 function App() {
-  return <div className="font-bold bg-teal-5">Hello dear!</div>;
+  return (
+    <div className="App">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
