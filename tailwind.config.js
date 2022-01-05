@@ -1,7 +1,13 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "bg-btn": "#5454D4",
+      },
+    },
   },
   plugins: [],
 };

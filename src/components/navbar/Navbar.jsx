@@ -23,7 +23,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <section className="relative z-10 flex items-center justify-between mt-4 layout">
+    <section className="relative z-10 flex items-center justify-between pt-4 layout">
       <div className="flex-1 ml-4 md:ml-0">
         <img src={logo} alt="logo" />
       </div>
