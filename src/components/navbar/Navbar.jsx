@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <section className="relative z-10 flex items-center justify-between pt-4 layout">
-      <div className="flex-1 ml-4 md:ml-0">
+      <div className="flex-1">
         <img src={logo} alt="logo" />
       </div>
       <div className="items-center flex-auto hidden justify-evenly md:flex">
@@ -35,7 +35,7 @@ const Navbar = () => {
           Contact us
         </button>
       </div>
-      <div className="flex mr-4 md:hidden ">
+      <div className="flex md:hidden ">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"

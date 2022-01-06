@@ -6,7 +6,7 @@ function Header() {
   return (
     <section className="flex flex-col items-center justify-between pt-24 layout md:pt-36 md:flex-row">
       <div className="flex-1">
-        <h1 className="text-3xl font-extrabold sm:text-7xl">
+        <h1 className="text-[2.625rem] font-extrabold sm:text-7xl">
           Build Your Awesome Platform
         </h1>
         <p className="w-full my-6 text-sm leading-8 sm:leading-10 sm:text-xl opacity-70">
