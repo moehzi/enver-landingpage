@@ -1,4 +1,4 @@
-import logo from "../../assets/enver.png";
+import logo from "../../assets/icons/enver.png";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import React, { useState } from "react";
 

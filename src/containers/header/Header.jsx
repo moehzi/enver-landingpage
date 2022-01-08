@@ -1,6 +1,6 @@
 import React from "react";
-import headerIMG from "../../assets/header-img.png";
-import arrowRightUp from "../../assets/arrow-right-up.png";
+import headerIMG from "../../assets/images/header-img.png";
+import arrowRightUp from "../../assets/icons/arrow-right-up.png";
 
 function Header() {
   return (

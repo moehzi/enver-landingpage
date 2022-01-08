@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import { Navbar } from "./components";
-import { Header, WhyENVER } from "./containers";
-import bgLinear from "./assets/rectangle.png";
+import { Header, WhyENVER, Services } from "./containers";
+import bgLinear from "./assets/gradient/rectangle-blue.png";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <WhyENVER />
+      <Services />
     </div>
   );
 }
