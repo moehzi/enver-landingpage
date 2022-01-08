@@ -1,10 +1,11 @@
 import React from "react";
 import ReactPlayer from "react-player/youtube";
+import "./WhyENVER.css";
 
 function WHYEnver() {
   return (
     <div className="pt-24 layout">
-      <div className="flex flex-col justify-between md:items-center md:flex-row">
+      <div className="flex flex-col justify-between mb-[3.125rem] md:items-center md:flex-row ">
         <h1 className="flex-1 md:text-6xl text-4xl sm:leading-[4.375rem] leading-[3.375rem] font-bold">
           Why Enver Is The Best Choice
         </h1>
@@ -13,11 +14,14 @@ function WHYEnver() {
           services!
         </p>
       </div>
-      <div className="w-full py-12">
+      <div className="react-player__wrapper">
         <ReactPlayer
+          className="react-player__wrapper-video"
           width={"100%"}
           url=" https://www.youtube.com/watch?v=HbBMp6yUXO0"
-          height={"670px"}
+          height={"100%"}
+          controls={false}
+          playing
         />
       </div>
     </div>

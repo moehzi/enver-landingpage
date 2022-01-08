@@ -20,7 +20,7 @@ function Header() {
         </button>
       </div>
       <div className="flex-1 w-full">
-        <img src={headerIMG} alt="headerImage"></img>
+        <img src={headerIMG} alt="headerImage" className="w-full h-auto"></img>
       </div>
     </section>
   );
