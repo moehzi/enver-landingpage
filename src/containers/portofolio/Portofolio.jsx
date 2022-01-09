@@ -26,7 +26,7 @@ function Portofolio() {
   };
 
   return (
-    <div className="pt-24 layout">
+    <div className="py-24 layout">
       <h1 className="text-6xl font-extrabold">Our Awesome Portofolio</h1>
       <Carousel responsive={responsive} showDots={true} className="py-16">
         {Content.map((item, index) => {

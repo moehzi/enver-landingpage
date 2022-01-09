@@ -21,7 +21,6 @@ function WHYEnver() {
           url=" https://www.youtube.com/watch?v=HbBMp6yUXO0"
           height={"100%"}
           controls={false}
-          playing
         />
       </div>
     </div>
