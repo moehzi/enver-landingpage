@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         "bg-btn": "#5454D4",
+        "card-porto": "#1E1E20",
       },
     },
   },

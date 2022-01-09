@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Navbar } from "./components";
-import { Header, WhyENVER, Services } from "./containers";
+import { Header, WhyENVER, Services, Portofolio } from "./containers";
 import bgLinear from "./assets/gradient/rectangle-blue.png";
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       <Header />
       <WhyENVER />
       <Services />
+      <Portofolio />
     </div>
   );
 }
